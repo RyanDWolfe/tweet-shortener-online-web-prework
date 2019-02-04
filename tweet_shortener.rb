@@ -1,3 +1,5 @@
+require "pry"
+
 def dictionary
   hash = {
   "hello" => 'hi',

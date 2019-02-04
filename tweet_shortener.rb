@@ -29,5 +29,4 @@ end
 
 def selective_tweet_shortener(tweet)
  short = tweet[0...140]
- end
 end

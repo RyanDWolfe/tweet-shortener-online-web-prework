@@ -28,10 +28,8 @@ puts word_substituter(tweet)
 end
 
 def selective_tweet_shortener(tweet)
- if tweet.length > 140
-   #shorten
+   tweet.truncate(140)
  end
-end
 
 def selective_tweet_truncator(tweet)
 

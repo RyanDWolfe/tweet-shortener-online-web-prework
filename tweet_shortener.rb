@@ -32,5 +32,3 @@ def selective_tweet_shortener(tweet)
    tweet.truncate(140)
  end
 end
-
-

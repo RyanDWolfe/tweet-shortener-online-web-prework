@@ -16,7 +16,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  tweet.split(" ").downcase.collect {|word|
+  tweet.split(" ").collect {|word|
     if dictionary.values_at(word) == [nil]
       word
     else

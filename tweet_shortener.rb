@@ -16,7 +16,8 @@ end
 def word_substituter(tweet)
   tweet.split(" ").collect {|word|
     if dictionary.values_at(word) == " " || nil
-  binding.pry    word
+  binding.pry
+      word
     else
       dictionary.values_at(word)
     end

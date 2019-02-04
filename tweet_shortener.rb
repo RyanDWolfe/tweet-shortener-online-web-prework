@@ -23,11 +23,14 @@ def word_substituter(tweet)
       dictionary.values_at(word)
     end
   }.join(" ")
+  
 end
 
 def bulk_tweet_shortener(tweets)
   binding.pry
-puts word_substituter(tweets)
+  tweets.each { |tweet|
+    word_substituter(tweet)
+  }
 end
 
 def selective_tweet_shortener(tweet)
